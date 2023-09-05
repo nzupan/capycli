@@ -43,11 +43,14 @@ class PurlService:
 
         print_text("Retrieving package-url ids, filter:", purl_types)
         all_ids = self.client.get_components_by_external_id("package-url")
+        resp = self.client.get_releases_by_external_id("package-url")
+        if not resp:
+            resp = []
+
         if len(all_ids) == 0:
-            all_ids = self.client.get_releases_by_external_id("package-url")
+            all_ids = resp
         else:
-            all_ids = all_ids + self.client.get_releases_by_external_id("package-url")
-        print_text(" Found", len(all_ids), "total purls")
+            all_ids = all_ids + resp
 
         duplicates = []
         for entry in all_ids:
