@@ -340,6 +340,10 @@ class BomCreateComponents(capycli.common.script_base.ScriptBase):
             url = CycloneDxSupport.get_ext_ref_source_url(cx_comp)
             filename = CycloneDxSupport.get_ext_ref_source_file(cx_comp)
             filehash = CycloneDxSupport.get_source_file_hash(cx_comp)
+            if filename.endswith('.git'):
+                print_red("    WARNING: resetting filename to match the new URL")
+                filename = ''
+            print_red("    SOURCE", "SOURCE_SELF", url, filename)
 
         if filetype in ["BINARY", "BINARY_SELF"]:
             url = CycloneDxSupport.get_ext_ref_binary_url(cx_comp)
