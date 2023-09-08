@@ -257,6 +257,7 @@ tomcat-websocket;Apache Tomcat;;
 @babel/plugin-syntax-import-meta;babel;;https://github.com/babel/babel
 @babel/plugin-syntax-logical-assignment-operators;babel;;https://github.com/babel/babel
 @babel/plugin-syntax-numeric-separator;babel;;https://github.com/babel/babel
+@babel/plugin-syntax-top-level-await;babel;;https://github.com/babel/babel
 
 @angular/cdk;angular/components;;https://github.com/angular/components
 @angular/google-maps;angular/components;;https://github.com/angular/components
@@ -3445,3 +3446,27 @@ amazon-cognito-identity-js;aws-amplify;;https://github.com/aws-amplify/amplify-j
 @aws-amplify/pushnotification;aws-amplify;;https://github.com/aws-amplify/amplify-js
 @aws-amplify/rtn-push-notification;aws-amplify;;https://github.com/aws-amplify/amplify-js
 @aws-amplify/storage;aws-amplify;;https://github.com/aws-amplify/amplify-js
+
+@nrwl/angular;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/cli;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/create-nx-plugin;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/create-nx-workspace;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/cypress;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/detox;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/devkit;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/eslint-plugin-nx;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/express;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/jest;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/js;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/linter;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/nest;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/next;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/node;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/nx;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/nx-plugin;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/react;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/react-native;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/storybook;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/tao;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/web;nrwl/nx;;https://github.com/nrwl/nx
+@nrwl/workspace;nrwl/nx;;https://github.com/nrwl/nx
