@@ -279,7 +279,10 @@ class BomCreateComponents(capycli.common.script_base.ScriptBase):
                 print_yellow(
                     "    WARNING: SW360 source URL", release_data["sourceCodeDownloadurl"],
                     "differs from BOM URL", data["sourceCodeDownloadurl"])
-                update_data["sourceCodeDownloadurl"] = data["sourceCodeDownloadurl"]
+                if data["sourceCodeDownloadurl"].endswith(('zip', 'tgz', 'tar.gz', 'tar')):
+                    update_data["sourceCodeDownloadurl"] = data["sourceCodeDownloadurl"]
+                    print_yellow(
+                        "        Moderation: updating source code URL to", update_data["sourceCodeDownloadurl"])
                 print_yellow(
                     "        Proceeding with uploading correct attachment")
 
