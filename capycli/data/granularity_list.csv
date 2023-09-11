@@ -258,6 +258,7 @@ tomcat-websocket;Apache Tomcat;;
 @babel/plugin-syntax-logical-assignment-operators;babel;;https://github.com/babel/babel
 @babel/plugin-syntax-numeric-separator;babel;;https://github.com/babel/babel
 @babel/plugin-syntax-top-level-await;babel;;https://github.com/babel/babel
+@babel/helper-string-parser;babel;;https://github.com/babel/babel
 
 @angular/cdk;angular/components;;https://github.com/angular/components
 @angular/google-maps;angular/components;;https://github.com/angular/components
